@@ -33,13 +33,6 @@
                   <artifactId>webapp-runner</artifactId>
                   <version>8.5.11.3</version>
                   <destFileName>webapp-runner.jar</destFileName>
-                  <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>divijak-centos-releases</name>
-        <url>http://35.238.50.120:80/artifactory/libs-release</url>
-    </repository>
-</distributionManagement>
                 </artifactItem>
               </artifactItems>
             </configuration>
