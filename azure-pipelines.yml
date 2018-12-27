@@ -21,11 +21,3 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
 
-
-<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>divijak-centos-releases</name>
-        <url>http://35.238.50.120:80/artifactory/libs-release</url>
-    </repository>
-</distributionManagement>
