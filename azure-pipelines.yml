@@ -22,6 +22,6 @@ steps:
     goals: 'clean install'
 - task: PublishBuildArtifacts@1
   inputs:
-    pathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    pathtoPublish: '/home/vsts/work/1/s'
 
 
