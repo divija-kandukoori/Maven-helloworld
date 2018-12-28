@@ -23,5 +23,6 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
     pathtoPublish: '/home/vsts/work/1/s'
+    artifactName: ''
 
 
