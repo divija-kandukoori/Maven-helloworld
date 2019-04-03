@@ -45,7 +45,7 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>divijak-centos-snapshots</name>
-        <url>http://10.128.1.82:8081/artifactory/libs-snapshot</url>
+        <url>http://10.128.1.21:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
