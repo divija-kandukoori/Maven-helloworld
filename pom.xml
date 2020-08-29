@@ -42,10 +42,15 @@
     </plugins>
   </build>
   <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>divija-artifactory-primary-0-releases</name>
+        <url>https://divija.jfrog.io/artifactory/libs-snapshot-local</url>
+    </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>divijak-centos-snapshots</name>
-        <url>http://10.128.1.34:8081/artifactory/libs-snapshot</url>
+        <name>divija-artifactory-primary-0-snapshots</name>
+        <url>https://divija.jfrog.io/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
